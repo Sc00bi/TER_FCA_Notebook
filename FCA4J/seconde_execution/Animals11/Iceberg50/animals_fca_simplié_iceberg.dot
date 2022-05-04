@@ -1,0 +1,8 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=orange,label="{0 (I: 0, E: 10)||R1\nR2\nR10\n}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 11, E: 0)|flies\nnocturnal\nfeathered\nmigratory\nred-bill\nelytra\nwood-habitat\nsix-legged\neats-fish\nwater-habitat\n|}"];
+2 [shape=record,style=filled,fillcolor=orange,label="{2 (I: 1, E: 7)|sea-habitat\n|R3\nR4\nR5\nR6\nR7\nR8\nR9\n}"];
+	1 -> 2
+	2 -> 0
+}

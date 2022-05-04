@@ -1,0 +1,2 @@
+<1> migratory => eats-fish
+<1> flies => sea-habitat

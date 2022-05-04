@@ -1,0 +1,28 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 10)||}"];
+1 [shape=record,style=filled,label="{1 (I: 2, E: 1)|flies\n|R8\n}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 11, E: 0)|nocturnal\nred-bill\nelytra\nwood-habitat\nsix-legged\n|}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 1, E: 2)|feathered\n|}"];
+4 [shape=record,style=filled,label="{4 (I: 2, E: 1)|migratory\n|R2\n}"];
+5 [shape=record,style=filled,label="{5 (I: 2, E: 1)||R7\n}"];
+6 [shape=record,style=filled,fillcolor=orange,label="{6 (I: 1, E: 7)|sea-habitat\n|R3\nR4\nR5\nR6\nR9\n}"];
+7 [shape=record,style=filled,label="{7 (I: 2, E: 1)||R10\n}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{8 (I: 1, E: 2)|eats-fish\n|}"];
+9 [shape=record,style=filled,label="{9 (I: 1, E: 1)|water-habitat\n|R1\n}"];
+	1 -> 6
+	2 -> 1
+	2 -> 4
+	2 -> 5
+	2 -> 7
+	2 -> 9
+	3 -> 0
+	4 -> 8
+	5 -> 3
+	5 -> 6
+	6 -> 0
+	7 -> 3
+	7 -> 8
+	8 -> 0
+	9 -> 0
+}
