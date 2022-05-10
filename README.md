@@ -7,7 +7,9 @@ Répertoire git destiné à regrouper les documents de notre TER de M1 informati
 ### Une fois docker installé
 
 Télécharger une image de ubuntu. Pour voir les images, il suffit de se rendre sur docker hub et saisir dans la bar de recherche ce qu'on veut comme image
+
 	- docker image ls (pour voir les images déjà présentes sur notre système)
+	
 	- docker pull ubuntu:latest (pour télécharger une image de ubuntu)
 
 
