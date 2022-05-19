@@ -1,24 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T07:44:38.526Z" agent="5.0 (Windows)" etag="TzepD0qsAx5usYFwVWh_" version="18.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-19T07:46:41.542Z" agent="5.0 (Windows)" etag="MCNUNV4RpQjX8d5PO3zV" version="18.0.4" type="github" pages="2">
   <diagram id="TEH-tee45DtzhIemd7Sm" name="schéma chaines de traitements">
-    <mxGraphModel dx="1607" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1071" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fqnQrnvz9RXQJ69IqJUL-22" value="Classification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#647687;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="480" y="90" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="fqnQrnvz9RXQJ69IqJUL-23" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fqnQrnvz9RXQJ69IqJUL-22" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="fqnQrnvz9RXQJ69IqJUL-28" value="Scikit-Learn" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e3c800;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#B09500;fontColor=#000000;" parent="fqnQrnvz9RXQJ69IqJUL-22" vertex="1">
-          <mxGeometry y="52" width="140" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="fqnQrnvz9RXQJ69IqJUL-29" value="Calcul des Kmeans" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fqnQrnvz9RXQJ69IqJUL-28" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="fqnQrnvz9RXQJ69IqJUL-30" value=" &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fqnQrnvz9RXQJ69IqJUL-22" vertex="1">
-          <mxGeometry y="104" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="fqnQrnvz9RXQJ69IqJUL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009100;exitX=0;exitY=0;exitDx=50;exitDy=40;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EBfaIOqDod-WrvutBr52-15" target="fqnQrnvz9RXQJ69IqJUL-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="200" as="sourcePoint" />
@@ -160,6 +145,21 @@
         </mxCell>
         <mxCell id="MLBpUoz8gYu61RC63qy8-17" value="&lt;div&gt;Meilleures règles &lt;br&gt;&lt;/div&gt;&lt;div&gt;trouvées&amp;nbsp; en texte&lt;/div&gt;" style="html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="630" y="506" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fqnQrnvz9RXQJ69IqJUL-28" value="Scikit-Learn" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e3c800;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="480" y="90" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fqnQrnvz9RXQJ69IqJUL-30" value=" &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fqnQrnvz9RXQJ69IqJUL-28" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fqnQrnvz9RXQJ69IqJUL-22" value="Classification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#647687;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#314354;fontColor=#ffffff;" parent="fqnQrnvz9RXQJ69IqJUL-28" vertex="1">
+          <mxGeometry y="52" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fqnQrnvz9RXQJ69IqJUL-29" value="Calcul des Kmeans" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fqnQrnvz9RXQJ69IqJUL-22" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fqnQrnvz9RXQJ69IqJUL-23" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fqnQrnvz9RXQJ69IqJUL-28" vertex="1">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
