@@ -201,19 +201,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -274,13 +261,14 @@ df.head()
 
 
 ```python
-# Sous python, les fonctionnalités de Dataframe sons souvent invoquées avec Orange.
-
+# Sous python, les fonctionnalités de Dataframe sont souvent invoquées par Orange.
+# Le drop ... que devait realiser Orange.
 df = df.drop(columns=['petal.width'], axis=1)
 ```
 
 
 ```python
+# Suppression des lignes aux index 0 et 1 du tableau qui montrent des données non nécessaires à l'analyse.
 df = df.drop([0,1])
 df
 ```
@@ -289,19 +277,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
