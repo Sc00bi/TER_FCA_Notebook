@@ -262,7 +262,7 @@ df.head()
 
 ```python
 # Sous python, les fonctionnalités de Dataframe sont souvent invoquées par Orange.
-# Le drop ... que devait realiser Orange.
+# Le drop ... que devait réaliser Orange.
 df = df.drop(columns=['petal.width'], axis=1)
 ```
 
