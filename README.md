@@ -1,10 +1,13 @@
 # TER_FCA_Notebook
-Répertoire git destiné à regrouper les documents de notre TER de M1 informatique. 
+Répertoire git destiné à regrouper les documents de notre TER de M1 informatique. Le sujet de notre TER était : FCA Notebook, Pratiquer l'analyse formelle de concepts dans un notebook. Nous avons donc à disposition les répertoires suivants :
+	- FCA4J correspond à différentes éxecutions avec FCA4J uniquement. Nous avons étudié le contexte formel des données sur Market et sur Animals11.
+	- bases_de_donnees répertorie différentes tables valuées que nous avons pu trouver, diviser selon leur format.
+	- chaines_de_traitements 
 
-# Docker
+## Docker
 
-## Utilisation de jupyter dans Docker
-### Une fois docker installé
+### Utilisation de jupyter dans Docker
+#### Une fois docker installé
 
 Télécharger une image de ubuntu. Pour voir les images, il suffit de se rendre sur docker hub et saisir dans la bar de recherche ce qu'on veut comme image
 
@@ -22,7 +25,7 @@ On peut maintenant exécuter l'instance
 
 	- docker exec -it <psName> <commande> [dans notre cas la commande sera bash. Pour la voir, il suffit de faire docker image ls].
 
-### Mise à jour de Ubuntu et installations
+#### Mise à jour de Ubuntu et installations
 
 	- apt update (pour mettre à jour Ubuntu)
 	- apt  install python3-pip (Installer python3)
@@ -34,7 +37,7 @@ D'autres commandes à installer
 	- apt install unzip
 	- apt install default-jre
 
-### Démarrer Jupyterlab dans le conteneur Ubuntu exécuté
+#### Démarrer Jupyterlab dans le conteneur Ubuntu exécuté
 Lancer Jupyter lab :
 
 	- jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root 
@@ -52,7 +55,7 @@ Enfin :
 
 	- python3 install.py
 
-### Sauvegarde et publication de l'image
+#### Sauvegarde et publication de l'image
 
 	- ctrl+c (pour interrompre le server jupyter-lab)
 	- exit (pour sortir de l'espace d'exécution de ubuntu)
@@ -61,12 +64,12 @@ Enfin :
 	- docker push <namespace>/<imageName>:<tag>
 	- docker stop <psName> (pour détruire l'instance précédente) [NE DETRUIRE L'INSTANCE QU'APRES SAUVEGARDE sinon la progression sera perdue]
 
-## Téléchargement de l'image Docker du projet
+### Téléchargement de l'image Docker du projet
 Commande utilisée afin d'obtenir l'image Docker (dernière version):
 
 	- docker pull seniorrinnegan/ter_fca_notebook:v4
 
-### Arborescence de docker
+#### Arborescence de docker
 Les tests on été réalisés à partir du dossier /home/Documents/TER
 
 
@@ -75,9 +78,9 @@ Les tests on été réalisés à partir du dossier /home/Documents/TER
 
 
 
-# Workflow Weka -> Orange -> Scikit learn
+## Workflow Weka -> Orange -> Scikit learn
 
-## WEKA (IJava)
+### WEKA (IJava)
 
 
 ```bash
@@ -99,7 +102,7 @@ import java.io.FileWriter;
 import weka.core.converters.ArffLoader;
 ```
 
-### chargement d'un fichier source
+#### chargement d'un fichier source
 
 
 ```java
@@ -107,7 +110,7 @@ import weka.core.converters.ArffLoader;
 Instances data = DataSource.read("iris.csv");
 ```
 
-### Resample
+#### Resample
 
 
 ```java
@@ -122,7 +125,7 @@ else
     ok !
 
 
-### enregistrement des données dans un fichier csv
+#### enregistrement des données dans un fichier csv
 
 
 ```java
@@ -141,7 +144,7 @@ saver.setFile(new File("iris_resample.csv"));
 saver.writeBatch();
 ```
 
-## ORANGE (IJava -> ipykernel)
+### ORANGE (IJava -> ipykernel)
 
 
 ```python
@@ -173,7 +176,7 @@ iris_data
 iris_data.save("iris_res_drop.csv")
 ```
 
-## SKLearn
+### SKLearn
 
 
 ```python
@@ -448,10 +451,10 @@ print(classification_report(y, predictions))
 
 
 
-# Workflow Weka -> FCA4J
+## Workflow Weka -> FCA4J
 Utilisation de Weka pour le calcul des règles d'association à partir de l'algorithme Apriori et génération d'un treillis à l'aide de FCA4J
 
-## importation de quelques fonctionnalités de weka
+### importation de quelques fonctionnalités de weka
 
 ```Java
 %maven nz.ac.waikato.cms.weka:weka-stable:3.8.0
@@ -464,7 +467,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 import weka.core.converters.CSVLoader
 ```
 
-## chargement du fichier source "market_ordered_itemset.csv"
+### chargement du fichier source "market_ordered_itemset.csv"
 
 
 ```Java
@@ -472,7 +475,7 @@ import weka.core.converters.CSVLoader
 Instances data = DataSource.read("market_ordered_itemset.csv");
 ```
 
-## génération de règles d'association
+### génération de règles d'association
 
 
 ```Java
@@ -517,7 +520,7 @@ System.out.println(model);
 
 A partir des règles précédemment générées, nous avons créé manuellement le fichier "market_binary_named_premises_formal_context.csv" qui nous permet de générer un treillis.
 
-## Changement de kernel pour exécuter le fichier "fca4j-cli-0.4.jar" à l'aide de la commande java (IJava -> ipykernel)
+### Changement de kernel pour exécuter le fichier "fca4j-cli-0.4.jar" à l'aide de la commande java (IJava -> ipykernel)
 
 
 ```bash
