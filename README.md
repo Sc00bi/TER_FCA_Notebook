@@ -67,7 +67,7 @@ Commande utilisée afin d'obtenir l'image Docker (dernière version):
 	- docker pull seniorrinnegan/ter_fca_notebook:v4
 
 ### Arborescence de docker
-...
+Les tests on été réalisés à partir du dossier /home/Documents/TER
 
 
 
