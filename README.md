@@ -8,8 +8,8 @@ Ce répertoire git est destiné à regrouper les documents de notre TER de M1 in
 * **weka_en_java** : correspond à un premier test d'utilisation de Weka en Java. 
 
 Dans ce readme, nous présentons ensuite :
-	- Une partie Docker pour montrer comment accéder à nos travaux effectués sur Jupyter.
-	- Puis la transposition des chaînes de traitements effectuées sur Jupyter.
+* Une partie Docker pour montrer comment accéder à nos travaux effectués sur Jupyter.
+* Puis la transposition des chaînes de traitements effectuées sur Jupyter.
 
 ## Docker
 ### Utilisation de jupyter dans Docker
