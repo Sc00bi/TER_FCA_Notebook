@@ -1,7 +1,7 @@
 # TER_FCA_Notebook
 Répertoire git destiné à regrouper les documents de notre TER de M1 informatique. 
 
-# Docker
+# Utilisation de Docker
 
 ## Utilisation de jupyter dans Docker
 ### Une fois docker installé
