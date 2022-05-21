@@ -8,7 +8,7 @@ Ce répertoire git est destiné à regrouper les documents de notre TER de M1 in
 * **weka_en_java** : correspond à un premier test d'utilisation de Weka en Java. 
 
 ## Docker
-
+Dans un premier temps, nous décrivons ci-dessous comment accéder à notre Docker. 
 ### Utilisation de jupyter dans Docker
 #### Une fois docker installé
 
