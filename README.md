@@ -1,11 +1,11 @@
 # TER_FCA_Notebook
 Répertoire git destiné à regrouper les documents de notre TER de M1 informatique. Le sujet de notre TER était : FCA Notebook, Pratiquer l'analyse formelle de concepts dans un notebook. Nous avons donc à disposition les répertoires suivants :
 
-	- FCA4J correspond : à différentes éxecutions avec FCA4J uniquement. Nous avons étudié le contexte formel des données sur Market et sur Animals11.
-	- bases_de_donnees : répertorie différentes tables valuées que nous avons pu trouver, diviser selon leur format.
-	- chaines_de_traitements : contient les fichiers produits par deux chaînes de traitements entre Orange, Scikit-Learn et Weka.
-	- contexte_formel : répertorie les différents formats de fichiers étudiés afin de mettre en évidence leurs différences. C'est également dans ce répertoire que l'on retrouve les fichiers utilisés pour la chaîne de traitement avec Weka et FCA4J (figure 18 de notre rapport).
-	- weka_en_java : correspond à un premier test d'utilisation de Weka en Java. 
+* FCA4J correspond : à différentes éxecutions avec FCA4J uniquement. Nous avons étudié le contexte formel des données sur Market et sur Animals11.
+* bases_de_donnees : répertorie différentes tables valuées que nous avons pu trouver, diviser selon leur format.
+* chaines_de_traitements : contient les fichiers produits par deux chaînes de traitements entre Orange, Scikit-Learn et Weka.
+* contexte_formel : répertorie les différents formats de fichiers étudiés afin de mettre en évidence leurs différences. C'est également dans ce répertoire que l'on retrouve les fichiers utilisés pour la chaîne de traitement avec Weka et FCA4J (figure 18 de notre rapport).
+* weka_en_java : correspond à un premier test d'utilisation de Weka en Java. 
 
 ## Docker
 
