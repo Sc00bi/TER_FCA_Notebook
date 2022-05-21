@@ -1,5 +1,5 @@
 # TER_FCA_Notebook
-Répertoire git destiné à regrouper les documents de notre TER de M1 informatique. Le sujet de notre TER était : FCA Notebook, Pratiquer l'analyse formelle de concepts dans un notebook. Nous avons donc à disposition les répertoires suivants :
+Répertoire git destiné à regrouper les documents de notre TER de M1 informatique. Le sujet de notre TER était : *FCA Notebook* ou pratiquer l'analyse formelle de concepts dans un notebook. Nous avons donc à disposition les répertoires suivants :
 
 * **FCA4J correspond** : à différentes éxecutions avec FCA4J uniquement. Nous avons étudié le contexte formel des données sur Market et sur Animals11.
 * **bases_de_donnees** : répertorie différentes tables valuées que nous avons pu trouver, diviser selon leur format.
